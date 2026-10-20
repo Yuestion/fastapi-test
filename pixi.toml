@@ -1,0 +1,13 @@
+[workspace]
+authors = ["Yuestion <yuestion@gmail.com>"]
+channels = ["conda-forge"]
+name = "fastapi-test"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "3.10.*"
+fastapi = ">=0.141.1,<0.142"
+uvicorn = ">=0.52.4,<0.53"
